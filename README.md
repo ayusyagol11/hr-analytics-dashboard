@@ -3,6 +3,7 @@
 An interactive HR analytics dashboard built in **Tableau Public**, giving a single-view snapshot of workforce composition, hiring/attrition trends, department distribution, location split, demographics, and compensation.
 
 🔗 **Live dashboard:** [Tableau Public — HR Analytics Dashboard](https://public.tableau.com/app/profile/aayush.yagol/viz/HR-dashboard_17581424319570/HRsummary)
+📁 **Source workbook:** [HR_Dashboard.twbx](HR_Dashboard.twbx) — open in Tableau Desktop or Tableau Public to explore the underlying build
 
 ---
 
@@ -10,7 +11,12 @@ An interactive HR analytics dashboard built in **Tableau Public**, giving a sing
 
 ![Dashboard Overview](screenshots/01-dashboard-overview.png)
 
-The dashboard is organised into three panels:
+The workbook ships with **two dashboards** built on **21 worksheets**:
+
+- **HR | Summary** (featured above) — the main landing view covering Overview, Demographics, and Income panels.
+- **HR | Details** — a supporting detail-level view for drilling into individual records.
+
+The Summary dashboard is organised into three panels:
 
 - **Overview** — Active employee count, hired vs. terminated trend lines, a department-level breakdown (headcount + terminations), and a US location map split by HQ vs. Branch.
 - **Demographics** — Gender split, an Education x Age distribution grid, and an Education x Performance rating matrix.
@@ -32,12 +38,20 @@ The dashboard is organised into three panels:
 
 ## Tech Stack
 
-- **Tableau Public** (Desktop 2026.2.0) for dashboard design, calculated fields, and dashboard actions
-- Python-generated synthetic HR dataset (workforce demographics, salary, performance, and attrition records)
+- **Tableau Public / Desktop** for dashboard design, calculated fields, and dashboard actions
+- Data source: **HumanResources** — a Tableau Hyper extract built from a HumanResources.csv dataset
 
 ## Data
 
 The underlying dataset covers ~8,900 employee records across 7 departments (Operations, Sales, Customer Service, IT, Marketing, Finance, HR), with fields spanning demographics, education, performance ratings, compensation, and location.
+
+## Repository Contents
+
+| File | Description |
+|---|---|
+| `HR_Dashboard.twbx` | Packaged Tableau workbook — open directly in Tableau Desktop/Public |
+| `screenshots/` | Dashboard screenshots used in this README |
+| `README.md` | This file |
 
 ## Author
 
@@ -46,4 +60,3 @@ The underlying dataset covers ~8,900 employee records across 7 departments (Oper
 - Tableau Public: [public.tableau.com/app/profile/aayush.yagol](https://public.tableau.com/app/profile/aayush.yagol/vizzes)
 - LinkedIn: [linkedin.com/in/aayush-yagol-046874145](https://linkedin.com/in/aayush-yagol-046874145/)
 - GitHub: [@ayusyagol11](https://github.com/ayusyagol11)
-
