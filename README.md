@@ -8,7 +8,7 @@ Live dashboard: [Tableau Public — HR Analytics Dashboard](https://public.table
 
 ## Screen 1: Summary
 
-![HR Summary dashboard](screenshots/01-dashboard-overview.png)
+![HR Summary dashboard](screenshots/01-dashboard-overview-1.png)
 
 The Summary screen is the main landing view, organised into three panels:
 
@@ -18,7 +18,7 @@ The Summary screen is the main landing view, organised into three panels:
 
 ## Screen 2: Details
 
-![HR Details dashboard](screenshots/05-details-dashboard.png)
+![HR Details dashboard](screenshots/05-details-dashboard-1.png)
 
 Where the Summary screen answers "what does the workforce look like as a whole?", the Details screen answers "who, specifically?" It's a searchable, row-level **Employee List** that lets you drill from the aggregate numbers on the Summary screen down to individual records.
 
