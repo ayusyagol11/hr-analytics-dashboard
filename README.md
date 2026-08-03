@@ -1,34 +1,34 @@
 # HR Analytics Dashboard
 
-An interactive HR analytics dashboard built in **Tableau Public**, giving a single-view snapshot of workforce composition, hiring/attrition trends, department distribution, location split, demographics, and compensation.
+An interactive HR analytics dashboard built in **Tableau Public**, giving a two-screen view of workforce composition, hiring/attrition trends, department distribution, location split, demographics, compensation, and individual employee records.
 
-🔗 **Live dashboard:** [Tableau Public — HR Analytics Dashboard](https://public.tableau.com/app/profile/aayush.yagol/viz/HR-dashboard_17581424319570/HRsummary)
-📁 **Source workbook:** [HR_Dashboard.twbx](HR_Dashboard.twbx) — open in Tableau Desktop or Tableau Public to explore the underlying build
+Live dashboard: [Tableau Public — HR Analytics Dashboard](https://public.tableau.com/app/profile/aayush.yagol/viz/HR-dashboard_17581424319570/HRsummary)
 
 ---
 
-## Overview
+## Screen 1: Summary
 
-![Dashboard Overview](screenshots/01-dashboard-overview.png)
+![HR Summary dashboard](screenshots/01-dashboard-overview.png)
 
-The workbook ships with **two dashboards** built on **21 worksheets**:
-
-- **HR | Summary** (featured above) — the main landing view covering Overview, Demographics, and Income panels.
-- **HR | Details** — a supporting detail-level view for drilling into individual records.
-
-The Summary dashboard is organised into three panels:
+The Summary screen is the main landing view, organised into three panels:
 
 - **Overview** — Active employee count, hired vs. terminated trend lines, a department-level breakdown (headcount + terminations), and a US location map split by HQ vs. Branch.
 - **Demographics** — Gender split, an Education x Age distribution grid, and an Education x Performance rating matrix.
 - **Income** — Education x Gender salary bands (with adjustable range sliders) and an Age x Salary scatter plot labelled by job role.
 
+## Screen 2: Details
+
+![HR Details dashboard](screenshots/05-details-dashboard.png)
+
+The Details screen is a row-level employee directory. Each record shows name, age, education, job title, department, city/state, salary, employment status, and tenure (length of employment), with expandable filters across ID, Demographics, Role, Geographics, Salary, Status, and Length of Employment.
+
 ## Key Features
 
-- **Cross-filtering / highlight actions** — clicking any mark (e.g. a department bar) dynamically highlights related data and dims everything else across all panels.
+- **Cross-filtering / highlight actions** — clicking any mark on the Summary screen (e.g. a department bar) dynamically highlights related data and dims everything else across all panels.
 
 ![Cross-filter highlight](screenshots/02-cross-filter-highlight.png)
 
-- **Global filter controls** — Gender, Status, Location, and Hire Date filters that can be toggled on to slice the entire dashboard.
+- **Global filter controls** — Gender, Status, Location, and Hire Date filters that can be toggled on to slice the entire Summary screen.
 
 ![Filters panel](screenshots/03-filters-panel.png)
 
@@ -43,14 +43,16 @@ The Summary dashboard is organised into three panels:
 
 ## Data
 
-The underlying dataset covers ~8,900 employee records across 7 departments (Operations, Sales, Customer Service, IT, Marketing, Finance, HR), with fields spanning demographics, education, performance ratings, compensation, and location.
+The full dataset covers ~8,950 employee records across 7 departments (Operations, Sales, Customer Service, IT, Marketing, Finance, HR), with fields spanning demographics, education, performance ratings, compensation, hire/term dates, and location.
+
+A 50-row sample is included at [`data/dataset_sample.csv`](data/dataset_sample.csv) to illustrate the record structure (Employee_ID, name, gender, state, city, education level, birthdate, hiredate, termdate, department, job title, salary, performance rating).
 
 ## Repository Contents
 
-| File | Description |
+| Path | Description |
 |---|---|
-| `HR_Dashboard.twbx` | Packaged Tableau workbook — open directly in Tableau Desktop/Public |
 | `screenshots/` | Dashboard screenshots used in this README |
+| `data/dataset_sample.csv` | 50-row sample of the underlying employee dataset |
 | `README.md` | This file |
 
 ## Author
