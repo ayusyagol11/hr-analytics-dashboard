@@ -37,15 +37,9 @@ Every column header carries its own expandable filter arrow, so the list can be 
 
 - **Cross-filtering / highlight actions** — clicking any mark on the Summary screen (e.g. a department bar) dynamically highlights related data and dims everything else across all panels.
 
-![Cross-filter highlight](screenshots/02-cross-filter-highlight.png)
-
 - **Global filter controls** — Gender, Status, Location, and Hire Date filters that can be toggled on to slice the entire Summary screen.
 
-![Filters panel](screenshots/03-filters-panel.png)
-
 - **Interactive salary range sliders** — drag the Education-level income sliders to constrain the salary bands shown in the Age x Salary scatter plot.
-
-![Income slider interaction](screenshots/04-income-slider-interaction.png)
 
 ## Tech Stack
 
