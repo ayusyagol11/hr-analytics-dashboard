@@ -1,0 +1,52 @@
+Employee_ID;First Name;Last Name;Gender;State;City;Education Level;Birthdate;Hiredate;Termdate;Department;Job Title;Salary;Performance Rating
+00-95822412;Danielle;Johnson;Female;New York;New York City;High School;13/02/1980;16/04/2016;05/07/2021;Customer Service;Help Desk Technician;81552;Needs Improvement
+00-42868828;John;Taylor;Male;North Carolina;Charlotte;Bachelor;22/09/1987;09/02/2017;14/06/2019;IT;System Administrator;107520;Good
+00-83197857;Erica;Mcclain;Male;New York;New York City;Bachelor;19/05/1994;03/02/2016;06/03/2021;Operations;Logistics Coordinator;61104;Good
+00-13999315;Brittany;Johnson;Male;New York;New York City;Bachelor;18/04/1980;06/02/2016;06/11/2018;Operations;Inventory Specialist;73770;Good
+00-90801586;Jeffery;Wagner;Female;New York;New York City;Bachelor;07/04/1985;11/01/2015;;Operations;Operations Analyst;55581;Satisfactory
+00-97226012;Anna;Baldwin;Female;New York;New York City;Bachelor;31/05/1988;30/09/2022;29/03/2023;Operations;Operations Analyst;73800;Good
+00-70291817;Amy;Robinson;Male;New York;New York City;Bachelor;16/07/1991;16/08/2020;12/02/2021;Finance;Accountant;68181;Good
+00-31429110;Joshua;Booth;Female;New York;New York City;Bachelor;19/09/1995;22/10/2022;20/04/2023;Finance;Accounts Payable Specialist;54499;Good
+00-30868105;Linda;Wolfe;Male;New York;New York City;High School;11/05/2002;13/05/2017;15/11/2021;Operations;Inventory Specialist;57340;Needs Improvement
+00-22448136;Joshua;Lewis;Female;New York;New York City;Bachelor;21/11/1980;24/10/2018;30/03/2022;Operations;Logistics Coordinator;54065;Good
+00-56164955;Matthew;Davis;Female;New York;New York City;High School;08/02/1994;07/02/2021;06/08/2021;Marketing;SEO Specialist;83262;Needs Improvement
+00-71662963;Michael;Cooper;Female;New York;New York City;High School;26/04/1974;12/04/2020;28/01/2024;HR;Recruiter;61651;Needs Improvement
+00-84093639;Lindsay;Blair;Male;New York;New York City;Bachelor;26/05/1967;28/07/2017;24/01/2018;Operations;Operations Analyst;75509;Good
+00-58537831;David;Nielsen;Female;New York;New York City;High School;26/07/2001;31/01/2020;29/07/2020;Customer Service;Help Desk Technician;67011;Needs Improvement
+00-16150444;Andrea;Calderon;Male;Michigan;Grand Rapids;Bachelor;22/05/1987;29/08/2022;25/02/2023;IT;IT Support Specialist;60136;Good
+00-41244663;Nicole;Ward;Male;New York;New York City;Bachelor;13/12/1963;16/03/2023;12/09/2023;Operations;Logistics Coordinator;67552;Satisfactory
+00-70855700;Janet;Williams;Male;Michigan;Grand Rapids;Bachelor;26/12/2002;30/03/2021;26/09/2021;Operations;Inventory Specialist;59934;Good
+00-59684848;Kendra;Galloway;Female;New York;New York City;PhD;01/04/1963;29/11/2018;08/12/2019;Sales;Sales Manager;104162;Excellent
+00-96977837;Jesse;Garcia;Male;New York;New York City;Bachelor;03/02/1963;17/04/2016;29/01/2023;Customer Service;Customer Service Representative;63873;Good
+00-81691040;Shawn;Flowers;Male;Michigan;Warren;Bachelor;28/06/1959;05/03/2022;01/09/2022;IT;IT Support Specialist;66250;Excellent
+00-60929647;Mitchell;Clark;Male;New York;New York City;Bachelor;14/09/1973;14/04/2017;16/06/2024;Customer Service;Support Specialist;61729;Satisfactory
+00-84752529;Jacqueline;Sutton;Female;New York;New York City;Master;29/06/1979;28/01/2017;06/08/2022;Sales;Sales Manager;84046;Good
+00-17507864;Chelsea;Jackson;Male;North Carolina;Raleigh;PhD;10/07/1994;11/10/2017;09/04/2018;Sales;Sales Specialist;69318;Excellent
+00-52339391;John;Ford;Male;Pennsylvania;Philadelphia;Bachelor;15/07/2002;15/04/2019;12/10/2019;Sales;Sales Consultant;99002;Satisfactory
+00-86125617;Veronica;Bowman;Male;New York;New York City;Bachelor;16/04/1990;05/08/2017;06/02/2018;Operations;Logistics Coordinator;69163;Good
+00-97971488;Jeffrey;Nguyen;Male;New York;New York City;Bachelor;18/12/1992;25/10/2020;27/10/2021;Operations;Inventory Specialist;65830;Good
+00-29175900;Kimberly;Perez;Male;New York;New York City;Bachelor;19/11/1970;13/01/2017;;Marketing;Content Creator;68419;Good
+00-85345555;Linda;Morales;Male;New York;New York City;Bachelor;20/04/1993;26/01/2020;09/04/2021;Sales;Sales Specialist;71110;Needs Improvement
+00-67503414;Jason;Hahn;Male;Ohio;Cleveland;Bachelor;25/01/1978;07/12/2017;04/06/2018;IT;System Administrator;84205;Excellent
+00-39436733;Jennifer;Lewis;Male;New York;New York City;Master;18/09/1982;12/07/2018;08/01/2019;Sales;Sales Specialist;67953;Good
+00-76238574;Randall;Rocha;Male;New York;New York City;High School;25/09/1960;27/06/2016;10/05/2021;IT;IT Support Specialist;58445;Needs Improvement
+00-24716857;Douglas;Taylor;Female;New York;New York City;Bachelor;17/07/1992;17/10/2017;16/11/2021;Customer Service;Customer Service Representative;58697;Satisfactory
+00-66661351;Anna;Baker;Male;New York;New York City;PhD;12/05/1970;15/08/2020;17/11/2022;Sales;Sales Specialist;77156;Excellent
+00-89978790;Ross;Silva;Female;New York;New York City;Bachelor;29/11/2002;20/05/2024;16/11/2024;Sales;Sales Specialist;81038;Excellent
+00-84252722;Jeffrey;Bright;Male;New York;New York City;Bachelor;21/05/1980;17/07/2017;13/01/2018;Finance;Accounts Payable Specialist;71339;Satisfactory
+00-25374874;Trevor;Campos;Male;New York;New York City;Master;19/02/1983;01/12/2022;30/05/2023;Operations;Operations Analyst;81316;Excellent
+00-45812670;Daniel;Burton;Female;New York;New York City;Bachelor;23/06/2001;04/11/2022;14/02/2024;IT;Software Developer;96947;Excellent
+00-49392920;Erin;Carlson;Male;New York;New York City;Bachelor;20/03/1984;30/05/2019;29/04/2021;Operations;Logistics Coordinator;67437;Excellent
+00-45351479;Patrick;Ferrell;Female;Michigan;Detroit;PhD;20/05/1969;24/07/2018;20/01/2019;Sales;Sales Consultant;116328;Excellent
+00-24282218;John;Tran;Male;Virginia;Norfolk;Bachelor;15/01/1972;05/01/2017;25/01/2018;Operations;Logistics Coordinator;67630;Satisfactory
+00-95758349;Erin;Wilson;Female;New York;New York City;Bachelor;15/08/1981;09/12/2020;11/12/2021;Operations;Logistics Coordinator;53898;Good
+00-60185867;Amanda;Adams;Female;New York;New York City;Bachelor;10/11/2003;06/09/2022;05/03/2023;Sales;Sales Specialist;61534;Good
+00-81182864;Matthew;Carter;Male;New York;New York City;High School;26/11/1979;02/03/2024;19/09/2024;Marketing;SEO Specialist;78184;Needs Improvement
+00-75579548;Shawn;Mckay;Female;New York;New York City;Bachelor;18/04/1980;07/12/2015;13/03/2023;Operations;Inventory Specialist;56559;Good
+00-51273847;Jennifer;Stanton;Male;New York;New York City;Bachelor;09/12/1959;23/10/2017;02/12/2018;Customer Service;Support Specialist;68635;Satisfactory
+00-20570592;Guy;Gaines;Male;New York;New York City;Bachelor;15/10/2002;04/12/2016;;Sales;Sales Representative;80367;Satisfactory
+00-19289546;Colleen;Skinner;Female;New York;New York City;Bachelor;01/12/1981;16/07/2018;12/01/2019;Operations;Inventory Specialist;63169;Good
+00-26879290;Chelsea;Hernandez;Female;Pennsylvania;Philadelphia;Master;19/10/1982;23/10/2016;05/06/2019;Sales;Sales Consultant;71142;Good
+00-32162965;Evan;Ashley;Male;New York;New York City;High School;16/09/1983;25/12/2017;07/12/2018;Operations;Inventory Specialist;58830;Needs Improvement
+00-38427073;Alyssa;Smith;Female;Michigan;Grand Rapids;Bachelor;24/04/1970;05/05/2024;01/11/2024;Customer Service;Customer Service Representative;66218;Satisfactory
+00-36998038;Tracy;Rodriguez;Female;New York;New York City;High School;07/11/1979;21/05/2022;17/11/2022;Marketing;SEO Specialist;88887;Needs Improvement
