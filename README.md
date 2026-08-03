@@ -20,7 +20,18 @@ The Summary screen is the main landing view, organised into three panels:
 
 ![HR Details dashboard](screenshots/05-details-dashboard.png)
 
-The Details screen is a row-level employee directory. Each record shows name, age, education, job title, department, city/state, salary, employment status, and tenure (length of employment), with expandable filters across ID, Demographics, Role, Geographics, Salary, Status, and Length of Employment.
+Where the Summary screen answers "what does the workforce look like as a whole?", the Details screen answers "who, specifically?" It's a searchable, row-level **Employee List** that lets you drill from the aggregate numbers on the Summary screen down to individual records.
+
+Each row shows:
+- **ID** — employee number
+- **Demographics** — name, age, and education level
+- **Role** — job title and department
+- **Geographics** — city and state
+- **Salary** — compensation
+- **Status** — hired/terminated, with hire date
+- **Length of Employment** — tenure, shown as a horizontal bar for quick visual comparison across employees
+
+Every column header carries its own expandable filter arrow, so the list can be sliced independently of (or in combination with) the global filters on the Summary screen — e.g. sorting by tenure to spot long-serving staff, or filtering by department and status to review a specific team's attrition.
 
 ## Key Features
 
